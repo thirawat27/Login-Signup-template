@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ส่วน login -->
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">เข้าสู่ระบบ</span>
+
+                <form method="post" action="login.php">
+                    <div class="input-field">
+                        <input type="text" placeholder="กรอกอีเมล์ของคุณ" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="ใส่รหัสผ่านของคุณ" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">จดจำฉัน</label>
+                        </div>
+                        
+                        <a href="#" class="text">ลืมรหัสผ่าน?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="เข้าสู่ระบบ">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">ไม่ใช่สมาชิก?
+                        <a href="#" class="text signup-link">สมัครเลย</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- ส่วน signup -->
+            <div class="form signup">
+                <span class="title">สมัครสมาชิก</span>
+
+                <form method="post" action="signup.php">
+                    <div class="input-field">
+                        <input type="text" placeholder="ใส่ชื่อของคุณ" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="กรอกอีเมล์ของคุณ" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="สร้างรหัสผ่าน" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="ยืนยันรหัสผ่าน" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">ฉันยอมรับข้อกำหนดและเงื่อนไขทั้งหมด!</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="ลงชื่อเข้าใช้">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">เป็นสมาชิกอยู่แล้ว?
+                        <a href="#" class="text login-link">ลงชื่อเข้าใช้ตอนนี้</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
