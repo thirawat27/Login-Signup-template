@@ -2,4 +2,5 @@
 
 นำรูปแบบไปใช้ได้📣
 
-( Crใ ต้นฉบับจาก https://www.codinglabweb.com/ )📬
+( Cr. ต้นฉบับจาก https://www.codinglabweb.com/ )
+(cr. thirawat sinlapasomsak)📬
